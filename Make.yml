@@ -18,7 +18,7 @@ on:
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/Muhammad-Daniyal86/twrp_device_tecno_camon_19_neo'
+        default: 'https://github.com/hashim447/twrp_device_tecno_camon_19_neo'
       DEVICE_BRANCH:
         description: 'main'
         required: true
