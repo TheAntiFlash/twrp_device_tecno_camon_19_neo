@@ -35,7 +35,7 @@ on:
 jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     
     steps:
     - name: Check Out
@@ -71,8 +71,8 @@ jobs:
         mkdir workspace
         cd workspace
         echo "::set-output name=pwd::$(pwd)"
-        git config --global user.name "Muhammad.Daniyal86"
-        git config --global user.email "Muhammad_daniyal@hotmail.com"
+        git config --global user.name "hashim447"
+        git config --global user.email "aterminator447@gmail.com"
         repo init --depth=1 -u ${{ github.event.inputs.LIBRARY_URL }} -b ${{ github.event.inputs.LIBRARY_BRANCH }}
       id: pwd
           
